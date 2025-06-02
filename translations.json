@@ -1,0 +1,78 @@
+{
+  "en": {
+    "hero": {
+      "subtitle": "Rock & Punk from Patagonia"
+    },
+    "sections": {
+      "liveShows": "Live Shows",
+      "musicVideos": "Music Videos",
+      "bandPhotos": "Band Photos",
+      "bookUs": "Book Us"
+    },
+    "videos": {
+      "liveShows": {
+        "celebrityPub": "Live at Celebrity Pub and Show",
+        "acousticShow": "Acoustic Show",
+        "whiskeyAGoGo": "Live at the Whiskey A Go Go, Hollywood"
+      },
+      "musicVideos": {
+        "latestSingle": "Latest Single",
+        "livePerformance": "Live Performance"
+      }
+    },
+    "gallery": {
+      "livePerformance": "Live Performance",
+      "stagePresence": "Stage Presence",
+      "behindScenes": "Behind the Scenes"
+    },
+    "contact": {
+      "text": "Contact us via WhatsApp to explore booking opportunities for all ages - from dive bars to school shows!",
+      "button": "Contact via WhatsApp"
+    },
+    "footer": {
+      "copyright": "© 2024 Amanda Kurt. All rights reserved."
+    },
+    "language": {
+      "en": "English",
+      "es": "Spanish"
+    }
+  },
+  "es": {
+    "hero": {
+      "subtitle": "Rock & Punk desde la Patagonia"
+    },
+    "sections": {
+      "liveShows": "Conciertos en Vivo",
+      "musicVideos": "Videos Musicales",
+      "bandPhotos": "Fotos de la Banda",
+      "bookUs": "Contrátanos"
+    },
+    "videos": {
+      "liveShows": {
+        "celebrityPub": "En Vivo en Celebrity Pub",
+        "acousticShow": "Show Acústico",
+        "whiskeyAGoGo": "En Vivo en Whiskey A Go Go, Hollywood"
+      },
+      "musicVideos": {
+        "latestSingle": "Último Single",
+        "livePerformance": "Presentación en Vivo"
+      }
+    },
+    "gallery": {
+      "livePerformance": "Presentación en Vivo",
+      "stagePresence": "Presencia Escénica",
+      "behindScenes": "Entre Bastidores"
+    },
+    "contact": {
+      "text": "¡Contáctanos por WhatsApp para explorar oportunidades de presentación para todas las edades - desde bares hasta shows escolares!",
+      "button": "Contactar por WhatsApp"
+    },
+    "footer": {
+      "copyright": "© 2024 Amanda Kurt. Todos los derechos reservados."
+    },
+    "language": {
+      "en": "Inglés",
+      "es": "Español"
+    }
+  }
+} 

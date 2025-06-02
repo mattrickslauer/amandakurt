@@ -1,0 +1,75 @@
+{
+  "sections": [
+    {
+      "type": "hero",
+      "title": "Amanda Kurt",
+      "subtitle": "Rock & Punk from Patagonia",
+      "image": "images/rockstar-amanda.jpg",
+      "background": "images/amanda-bass.jpg"
+    },
+    {
+      "type": "videos",
+      "title": "Live Shows",
+      "items": [
+        {
+          "type": "youtube",
+          "id": "Sl0EjAqCU34",
+          "title": "Live at Celebrity Pub and Show"
+        },
+        {
+          "type": "youtube",
+          "id": "CesbydeK8vY",
+          "title": "Acoustic Show"
+        },
+        {
+          "type": "youtube",
+          "id": "yshVqzU3xg4",
+          "title": "Live at the Whiskey A Go Go, Hollywood"
+        }
+      ]
+    },
+    {
+      "type": "videos",
+      "title": "Music Videos",
+      "items": [
+        {
+          "type": "youtube",
+          "id": "RLhy3tICS-0",
+          "title": "Latest Single"
+        },
+        {
+          "type": "youtube",
+          "id": "7nSTOzjw1LQ",
+          "title": "Live Performance"
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "title": "Band Photos",
+      "items": [
+        {
+          "type": "image",
+          "src": "images/rockstar-amanda-2.jpg",
+          "caption": "Live Performance"
+        },
+        {
+          "type": "image",
+          "src": "images/rockstar-amanda-3.jpg",
+          "caption": "Stage Presence"
+        },
+        {
+          "type": "image",
+          "src": "images/amanda-chilling.jpg",
+          "caption": "Behind the Scenes"
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "title": "Book Us",
+      "whatsapp": "+56976413240",
+      "text": "Contact us via WhatsApp to explore booking opportunities for all ages - from dive bars to school shows!"
+    }
+  ]
+} 
