@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amanda Kurt - Media Kit</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="noise-overlay"></div>
+    <div class="language-toggle">
+        <button class="lang-btn" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="es">ES</button>
+    </div>
+    <div class="nav-toggle">
+        <a href="../index.html" class="nav-btn" data-i18n="nav.home">Home</a>
+    </div>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="Media Kit">Media Kit</h1>
+            <p class="subtitle">Press & Resources</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="media-section">
+            <div class="language-content" data-lang="en">
+                <h2>English Press Kit</h2>
+                <div class="press-content">
+                    <section class="press-section">
+                        <h3 data-i18n="pressKit.en.titles.standard"></h3>
+                        <p data-i18n="pressKit.en.standard"></p>
+                    </section>
+
+                    <section class="press-section">
+                        <h3 data-i18n="pressKit.en.titles.funProfessional"></h3>
+                        <p data-i18n="pressKit.en.funProfessional"></p>
+                    </section>
+
+                    <section class="press-section">
+                        <h3 data-i18n="pressKit.en.titles.informative"></h3>
+                        <p data-i18n="pressKit.en.informative"></p>
+                    </section>
+                </div>
+            </div>
+
+            <div class="language-content" data-lang="es" style="display: none;">
+                <h2>Kit de Prensa en Español</h2>
+                <div class="press-content">
+                    <section class="press-section">
+                        <h3 data-i18n="pressKit.es.titles.standard"></h3>
+                        <p data-i18n="pressKit.es.standard"></p>
+                    </section>
+
+                    <section class="press-section">
+                        <h3 data-i18n="pressKit.es.titles.funProfessional"></h3>
+                        <p data-i18n="pressKit.es.funProfessional"></p>
+                    </section>
+
+                    <section class="press-section">
+                        <h3 data-i18n="pressKit.es.titles.informative"></h3>
+                        <p data-i18n="pressKit.es.informative"></p>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="media-gallery">
+            <h2>Press Photos</h2>
+            <div class="gallery-grid" id="press-photos-gallery"></div>
+        </section>
+
+        <section class="media-links">
+            <div class="language-content" data-lang="en">
+                <h2 data-i18n="mediaLinks.en.title">Press Coverage</h2>
+                <div class="links-grid" id="media-links-en"></div>
+            </div>
+
+            <div class="language-content" data-lang="es" style="display: none;">
+                <h2 data-i18n="mediaLinks.es.title">Cobertura de Prensa</h2>
+                <div class="links-grid" id="media-links-es"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p data-i18n="footer.copyright">&copy; 2024 Amanda Kurt. All rights reserved.</p>
+    </footer>
+
+    <script src="media.js"></script>
+</body>
+</html> 

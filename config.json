@@ -62,6 +62,71 @@
           "type": "image",
           "src": "images/amanda-chilling.jpg",
           "caption": "Behind the Scenes"
+        },
+        {
+          "type": "image",
+          "src": "images/acustic-amanda.jpg",
+          "caption": "Acoustic Performance"
+        },
+        {
+          "type": "image",
+          "src": "images/acustic2.jpg",
+          "caption": "Intimate Acoustic Set"
+        },
+        {
+          "type": "image",
+          "src": "images/show-celebrity.jpg",
+          "caption": "Live at Celebrity Pub"
+        },
+        {
+          "type": "image",
+          "src": "images/show-diego.jpg",
+          "caption": "Bass Performance"
+        },
+        {
+          "type": "image",
+          "src": "images/show-diego2.jpg",
+          "caption": "Stage Energy"
+        },
+        {
+          "type": "image",
+          "src": "images/show-diego3.jpg",
+          "caption": "Live Show Moment"
+        },
+        {
+          "type": "image",
+          "src": "images/show-diego4.jpg",
+          "caption": "Performance Intensity"
+        },
+        {
+          "type": "image",
+          "src": "images/show-diego5.jpg",
+          "caption": "Stage Presence"
+        },
+        {
+          "type": "image",
+          "src": "images/show-diego7.jpg",
+          "caption": "Live Performance"
+        },
+        {
+          "type": "image",
+          "src": "images/sky-ahow.jpg",
+          "caption": "Outdoor Performance"
+        },
+        {
+          "type": "image",
+          "src": "images/sky-show2.jpg",
+          "caption": "Open Air Concert"
+        },
+        {
+          "type": "image",
+          "src": "images/sky-show3.jpg",
+          "caption": "Outdoor Stage"
+        },
+        {
+          "type": "image",
+          "src": "images/sky-show4.jpg",
+          "caption": "Live Under the Sky"
         }
       ]
     },
@@ -71,5 +136,103 @@
       "whatsapp": "+56976413240",
       "text": "Contact us via WhatsApp to explore booking opportunities for all ages - from dive bars to school shows!"
     }
-  ]
+  ],
+  "pressKit": {
+    "en": {
+      "titles": {
+        "standard": "Standard Bio",
+        "funProfessional": "Fun & Professional",
+        "informative": "Informative"
+      },
+      "standard": "Formed in 2020 in the southernmost city of Chile — Punta Arenas — Amanda Kurt is a rock/punk project that blends visceral storytelling with grunge-drenched guitars and emotionally charged vocals. At the core of the band is Javiera Amanda Gaete Jeria, lead composer, vocalist, and guitarist, joined by Diego Fuentes on bass and co-composition.",
+      "funProfessional": "Amanda Kurt was born where the world seems to end — in the windswept streets of Punta Arenas — but their sound travels far beyond. Imagine punk that reads poetry, grunge that isn't afraid to cry. Their songs, often described as emotional postcards, move between distortion and tenderness with fearless honesty. Whether they're shaking the walls of a packed New York bar or writing melodies for Patagonian stories, Amanda Kurt carries the chaos of youth and the soul of the south in every chord.",
+      "informative": "In addition to their international performances, Amanda Kurt has been involved in regional cultural initiatives and independent music scenes across Chile. The duo continues to develop new material while engaging in collaborative projects that bridge music, literature, and local identity. Their inclusion in \"Magallanes en 100 Palabras (2025)\" highlights their commitment to cultural storytelling through sound. With a growing catalog and an ever-expanding live presence, Amanda Kurt is positioning themselves as a key voice in the new wave of South American alternative music."
+    },
+    "es": {
+      "titles": {
+        "standard": "Biografía Estándar",
+        "funProfessional": "Divertido y Profesional",
+        "informative": "Informativo"
+      },
+      "standard": "Formado en 2020 en la ciudad más austral de Chile —Punta Arenas—, Amanda Kurt es un proyecto de rock/punk que fusiona narrativa visceral con guitarras cargadas de grunge y voces cargadas de melancolía. Al centro de esta propuesta está Javiera Amanda Gaete Jeria, compositora principal, vocalista y guitarrista, acompañada por Diego Fuentes en el bajo, en la produccion y composición.",
+      "funProfessional": "Amanda Kurt nació donde el mundo parece terminar —en las calles azotadas por el viento de Punta Arenas—, pero su sonido viaja mucho más allá. Imagina un punk que lee poesía, un grunge que no teme llorar. Sus canciones, a menudo descritas como postales emocionales, se mueven entre la distorsión y la ternura con una honestidad sin miedo. Ya sea sacudiendo las paredes de un bar neoyorquino repleto o componiendo melodías para historias patagónicas, Amanda Kurt lleva en cada acorde el caos de la juventud y el alma del sur.",
+      "informative": "Además de sus presentaciones internacionales, Amanda Kurt ha participado en iniciativas culturales regionales y en escenas musicales independientes a lo largo de Chile. La banda continúa desarrollando nuevo material mientras colabora en proyectos que conectan la música con la literatura y la identidad local. Su inclusión en \"Magallanes en 100 Palabras (2025)\" resalta su compromiso con la narración cultural a través del sonido. Con un catálogo en crecimiento y una presencia en vivo cada vez más sólida, Amanda Kurt se está consolidando como una voz clave en la nueva ola de la música alternativa sudamericana."
+    }
+  },
+  "mediaLinks": {
+    "en": {
+      "title": "Press Coverage",
+      "items": [
+        {
+          "title": "La Tercera - Amanda Kurt: The Story Behind the Paintings",
+          "url": "https://www.latercera.com/culto/2022/01/05/amanda-kurt-la-historia-de-la-mujer-tras-los-cuadros-del-destacado-pintor-chileno-guillermo-lorca/",
+          "date": "2022-01-05"
+        },
+        {
+          "title": "La Prensa Austral - From Magallanes to Hollywood",
+          "url": "https://laprensaaustral.cl/2023/10/15/banda-amanda-kurt-desde-magallanes-a-hollywood/",
+          "date": "2023-10-15"
+        },
+        {
+          "title": "El Magallánico - Rock Ceremony",
+          "url": "https://elmagallanico.com/2024/11/con-cermeonia-rock-magallanes-en-100-palabras-dara-a-conocer-a-sus-ganadores",
+          "date": "2024-11"
+        },
+        {
+          "title": "ITV Patagonia - Festival Coverage",
+          "url": "https://www.itvpatagonia.com/noticias/regional/23-11-2024/festival-arte-en-tu-barrio-llegara-a-punta-arenas-con-musica-danza-y-fotografia/",
+          "date": "2024-11-23"
+        },
+        {
+          "title": "Find the Noise - Rock en Birra Coverage",
+          "url": "https://www.findthenoise.cl/post/amanda-kurt-lleva-su-energía-rockera-a-rock-en-birra-este-miércoles",
+          "date": "2024"
+        },
+        {
+          "title": "Radio Polar - Regional Bands Celebration",
+          "url": "https://www.radiopolar.com/bandas-regionales-pascuala-ilabaca-celebran-mes-musica-magallanes",
+          "date": "2024"
+        }
+      ]
+    },
+    "es": {
+      "title": "Cobertura de Prensa",
+      "items": [
+        {
+          "title": "La Tercera - Amanda Kurt: La Historia Detrás de los Cuadros",
+          "url": "https://www.latercera.com/culto/2022/01/05/amanda-kurt-la-historia-de-la-mujer-tras-los-cuadros-del-destacado-pintor-chileno-guillermo-lorca/",
+          "date": "2022-01-05"
+        },
+        {
+          "title": "La Prensa Austral - Desde Magallanes a Hollywood",
+          "url": "https://laprensaaustral.cl/2023/10/15/banda-amanda-kurt-desde-magallanes-a-hollywood/",
+          "date": "2023-10-15"
+        },
+        {
+          "title": "El Magallánico - Ceremonia Rock",
+          "url": "https://elmagallanico.com/2024/11/con-cermeonia-rock-magallanes-en-100-palabras-dara-a-conocer-a-sus-ganadores",
+          "date": "2024-11"
+        },
+        {
+          "title": "ITV Patagonia - Cobertura del Festival",
+          "url": "https://www.itvpatagonia.com/noticias/regional/23-11-2024/festival-arte-en-tu-barrio-llegara-a-punta-arenas-con-musica-danza-y-fotografia/",
+          "date": "2024-11-23"
+        },
+        {
+          "title": "Find the Noise - Cobertura Rock en Birra",
+          "url": "https://www.findthenoise.cl/post/amanda-kurt-lleva-su-energía-rockera-a-rock-en-birra-este-miércoles",
+          "date": "2024"
+        },
+        {
+          "title": "Radio Polar - Celebración de Bandas Regionales",
+          "url": "https://www.radiopolar.com/bandas-regionales-pascuala-ilabaca-celebran-mes-musica-magallanes",
+          "date": "2024"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "mediaKit": "Media Kit"
+  }
 } 

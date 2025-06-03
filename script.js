@@ -1,11 +1,18 @@
 let currentLang = 'en';
 let translations = {};
 
-// Load translations
-fetch('translations.json')
+// Load translations from config.json
+fetch('../config.json')
     .then(response => response.json())
     .then(data => {
-        translations = data;
+        translations = {
+            en: {
+                pressKit: data.pressKit.en
+            },
+            es: {
+                pressKit: data.pressKit.es
+            }
+        };
         initializeLanguage();
     })
     .catch(error => {
@@ -71,7 +78,7 @@ function setLanguage(lang) {
 }
 
 // Load and parse the configuration
-fetch('config.json')
+fetch('../config.json')
     .then(response => {
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
@@ -189,4 +196,65 @@ fetch('config.json')
     })
     .catch(error => {
         console.error('Error loading or processing config:', error);
-    }); 
+    });
+
+// Language switching functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const langButtons = document.querySelectorAll('.lang-btn');
+    const languageContents = document.querySelectorAll('.language-content');
+    
+    langButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const lang = button.getAttribute('data-lang');
+            
+            // Update active button
+            langButtons.forEach(btn => btn.classList.remove('active'));
+            button.classList.add('active');
+            
+            // Show/hide content based on language
+            languageContents.forEach(content => {
+                if (content.getAttribute('data-lang') === lang) {
+                    content.style.display = 'block';
+                } else {
+                    content.style.display = 'none';
+                }
+            });
+
+            // Update translations
+            setLanguage(lang);
+        });
+    });
+
+    // Initial language setup
+    const savedLang = localStorage.getItem('language') || 'en';
+    setLanguage(savedLang);
+});
+
+// Load press photos from config
+function loadPressPhotos() {
+    const galleryContainer = document.getElementById('press-photos-gallery');
+    if (!galleryContainer) return;
+
+    fetch('../config.json')
+        .then(response => response.json())
+        .then(data => {
+            const gallerySection = data.sections.find(section => section.type === 'gallery');
+            if (gallerySection && gallerySection.items) {
+                gallerySection.items.forEach(item => {
+                    if (item.type === 'image') {
+                        const img = document.createElement('img');
+                        img.src = '../' + item.src;
+                        img.alt = item.caption;
+                        img.title = item.caption;
+                        galleryContainer.appendChild(img);
+                    }
+                });
+            }
+        })
+        .catch(error => console.error('Error loading press photos:', error));
+}
+
+// Initialize press photos if on media page
+if (window.location.pathname.includes('media.html')) {
+    loadPressPhotos();
+} 
